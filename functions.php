@@ -109,6 +109,17 @@ add_action( 'wp', function() {
 } );
 
 
+/*  Self-hosted updates from GitHub Releases
+/* ------------------------------------ */
+if ( ! class_exists( '\Grayzone\Updater' ) ) {
+	require_once 'functions/updater.php';
+}
+add_action( 'init', function() {
+	$updater = new \Grayzone\Updater();
+	$updater->init();
+} );
+
+
 /*  Custom logo
 /* ------------------------------------ */
 if ( ! function_exists( 'grayzone_custom_logo' ) ) {

@@ -82,6 +82,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.0 - 2026-09-10 =
+* Se agrega auto-actualizador: el theme ahora se puede actualizar directamente desde Apariencia > Actualizaciones usando los Releases de https://github.com/NasastaXD/Blog (ver Update URI en style.css), sin depender de WordPress.org
+
 = 1.0.7-es - 2026-09-10 =
 * Traduccion completa al espanol (es_ES)
 * Correccion de bugs: comentarios y pingbacks que nunca se mostraban, la pagina de categoria que mostraba todas las entradas del sitio en vez de solo las de la categoria, un fallo de logica en los enlaces sociales, un enlace roto en el credito del pie de pagina, el buscador que enviaba el texto del placeholder como busqueda real, el nombre de autor sin escapar en archivos de autor, y una rama de "modo oscuro" sin usar
