@@ -91,8 +91,32 @@ if ( ! class_exists( __NAMESPACE__ . '\\Updater' ) ) {
 				'theme'       => $stylesheet,
 				'new_version' => $version,
 				'url'         => ! empty( $release['html_url'] ) ? $release['html_url'] : 'https://github.com/' . self::REPO . '/releases',
-				'package'     => 'https://github.com/' . self::REPO . '/archive/refs/tags/' . $release['tag_name'] . '.zip',
+				'package'     => $this->get_package_url( $release ),
 			];
+		}
+
+		/**
+		 * Prefer the "grayzone.zip" release asset (built by our release
+		 * workflow with the right top-level folder name) over GitHub's
+		 * auto-generated source archive, which contains repo-only files
+		 * (.github, CLAUDE.md, etc.) and extracts into a folder that isn't
+		 * named "grayzone".
+		 *
+		 * @param array $release Decoded GitHub release data.
+		 *
+		 * @return string
+		 */
+		protected function get_package_url( $release ) {
+			if ( ! empty( $release['assets'] ) && is_array( $release['assets'] ) ) {
+				foreach ( $release['assets'] as $asset ) {
+					if ( ! empty( $asset['name'] ) && 'grayzone.zip' === $asset['name'] && ! empty( $asset['browser_download_url'] ) ) {
+						return $asset['browser_download_url'];
+					}
+				}
+			}
+
+			// Fallback for releases published without that asset.
+			return 'https://github.com/' . self::REPO . '/archive/refs/tags/' . $release['tag_name'] . '.zip';
 		}
 
 		/**

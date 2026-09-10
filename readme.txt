@@ -82,6 +82,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.1 - 2026-09-10 =
+* El workflow de release ahora arma y adjunta grayzone.zip como asset del GitHub Release (carpeta interna ya llamada "grayzone", sin archivos del repo como .github o CLAUDE.md), para poder descargarlo e instalarlo a mano desde wp-admin
+* El auto-actualizador prioriza ese asset sobre el zip fuente de GitHub
+
 = 1.1.0 - 2026-09-10 =
 * Se agrega auto-actualizador: el theme ahora se puede actualizar directamente desde Apariencia > Actualizaciones usando los Releases de https://github.com/NasastaXD/Blog (ver Update URI en style.css), sin depender de WordPress.org
 

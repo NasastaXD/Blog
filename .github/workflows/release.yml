@@ -42,6 +42,18 @@ jobs:
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
+      # El zip fuente que GitHub genera solo (Source code) trae .git, .github,
+      # CLAUDE.md, etc., y su carpeta interna no se llama "grayzone" -> si
+      # alguien lo instala a mano desde wp-admin, la carpeta queda mal
+      # nombrada y el auto-updater deja de reconocer el theme instalado.
+      # Por eso se arma un asset propio con la carpeta bien nombrada.
+      - name: Build theme zip asset
+        if: steps.check.outputs.exists == 'false'
+        run: |
+          mkdir -p /tmp/build/grayzone
+          rsync -a --exclude='.git' --exclude='.github' --exclude='CLAUDE.md' --exclude='README.md' ./ /tmp/build/grayzone/
+          (cd /tmp/build && zip -rq "$GITHUB_WORKSPACE/grayzone.zip" grayzone)
+
       - name: Create release
         if: steps.check.outputs.exists == 'false'
         env:
@@ -51,4 +63,5 @@ jobs:
             --repo "${{ github.repository }}" \
             --title "${{ steps.version.outputs.tag }}" \
             --target "${{ github.sha }}" \
-            --generate-notes
+            --generate-notes \
+            grayzone.zip
