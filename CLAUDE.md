@@ -9,7 +9,10 @@ El theme se auto-actualiza contra este mismo repo usando el header `Update URI` 
 1. Subir el número de `Version:` en `style.css` (semver informal: bugfix -> patch, feature -> minor).
 2. Agregar una entrada en `== Changelog ==` de `readme.txt`.
 3. Mergear a `main`.
-4. Crear un tag `vX.Y.Z` sobre `main` y un GitHub Release con ese tag (el título y la descripción pueden resumir el changelog).
+
+El paso de crear el tag y el GitHub Release es **automático**: `.github/workflows/release.yml` corre en cada push a `main`, lee el `Version:` de `style.css`, y si todavía no existe un Release con ese tag (`vX.Y.Z`), lo crea con `gh release create` usando el `GITHUB_TOKEN` de la corrida. No hace falta (ni conviene) crear el tag a mano.
+
+Nota: la sesión de Claude Code que trabaja en este repo normalmente solo tiene permiso de push sobre su propia rama de feature, no sobre `main` ni para crear tags/releases directamente vía git o la API de GitHub — por eso el release se resuelve en CI y no con un `git push --tags` manual.
 
 El auto-actualizador arma la URL del paquete como `https://github.com/NasastaXD/Blog/archive/refs/tags/vX.Y.Z.zip`, así que el tag tiene que existir como Release (no alcanza con un simple git tag sin publicar, ya que se consulta `GET /repos/NasastaXD/Blog/releases/latest`).
 
