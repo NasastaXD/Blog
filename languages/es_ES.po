@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Grayzone 1.0.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-10 00:00+0000\n"
+"PO-Revision-Date: 2026-09-10 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Espanol\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: grayzone\n"
+
+msgid "% Responses"
+msgstr "% Respuestas"
+
+msgid "(is_404) Error 404 page layout"
+msgstr "(is_404) Diseño de la página de error 404"
+
+msgid "(is_404) Primary"
+msgstr "(is_404) Principal"
+
+msgid "(is_archive) Category, date, tag and author archive layout"
+msgstr "(is_archive) Diseño de archivos de categoría, fecha, etiqueta y autor"
+
+msgid "(is_archive) Primary"
+msgstr "(is_archive) Principal"
+
+msgid "(is_category) Category archive layout"
+msgstr "(is_category) Diseño del archivo de categoría"
+
+msgid "(is_category) Primary"
+msgstr "(is_category) Principal"
+
+msgid "(is_home) Posts homepage layout"
+msgstr "(is_home) Diseño de la página de inicio del blog"
+
+msgid "(is_home) Primary"
+msgstr "(is_home) Principal"
+
+msgid "(is_page) Default page layout - If a page has a set layout, it will override this."
+msgstr "(is_page) Diseño de página por defecto. Si una página tiene un diseño propio, este lo sobrescribirá."
+
+msgid "(is_page) Primary - If a page has a unique sidebar, it will override this."
+msgstr "(is_page) Principal. Si una página tiene una barra lateral propia, esta la sobrescribirá."
+
+msgid "(is_search) Primary"
+msgstr "(is_search) Principal"
+
+msgid "(is_search) Search page layout"
+msgstr "(is_search) Diseño de la página de resultados de búsqueda"
+
+msgid "(is_single) Primary - If a single post has a unique sidebar, it will override this."
+msgstr "(is_single) Principal. Si una entrada tiene una barra lateral propia, esta la sobrescribirá."
+
+msgid "(is_single) Single post layout - If a post has a set layout, it will override this."
+msgstr "(is_single) Diseño de entrada individual. Si una entrada tiene un diseño propio, este lo sobrescribirá."
+
+msgid "1 Response"
+msgstr "1 Respuesta"
+
+msgid "2 columns of widgets"
+msgstr "2 columnas de widgets"
+
+msgid "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+msgstr "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+
+msgid "A short description of you"
+msgstr "Una breve descripción sobre ti"
+
+msgid "All Rights Reserved."
+msgstr "Todos los derechos reservados."
+
+msgid "Alx Extensions"
+msgstr "Alx Extensions"
+
+msgid "Archive"
+msgstr "Archivo"
+
+msgid "Archive - Category"
+msgstr "Archivo - Categoría"
+
+msgid "Arial"
+msgstr "Arial"
+
+msgid "Author Avatar"
+msgstr "Avatar del autor"
+
+msgid "Background Color"
+msgstr "Color de fondo"
+
+msgid "Below content"
+msgstr "Debajo del contenido"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "By not selecting a category, it will show your latest post(s) from all categories"
+msgstr "Si no seleccionas una categoría, se mostrarán tus últimas entradas de todas las categorías"
+
+msgid "Circle images"
+msgstr "Imágenes circulares"
+
+msgid "Comment Count"
+msgstr "Contador de comentarios"
+
+msgid "Comment count with bubbles"
+msgstr "Contador de comentarios con burbujas"
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Content Max-width"
+msgstr "Ancho máximo del contenido"
+
+msgid "Create Social Links"
+msgstr "Crear enlaces sociales"
+
+msgid "Create and organize your social links"
+msgstr "Crea y organiza tus enlaces a redes sociales"
+
+msgid "Current Page Parent"
+msgstr "Página superior actual"
+
+msgid "Current Page:"
+msgstr "Página actual:"
+
+msgid "Default Page"
+msgstr "Página por defecto"
+
+msgid "Disable"
+msgstr "Desactivar"
+
+msgid "Droid Serif, Latin"
+msgstr "Droid Serif, Latín"
+
+msgid "Dynamic Styles"
+msgstr "Estilos dinámicos"
+
+msgid "Enable Blog Heading"
+msgstr "Activar encabezado del blog"
+
+msgid "Enable or disable the recommended plugins notice"
+msgstr "Activa o desactiva el aviso de plugins recomendados"
+
+msgid "Enter the full url for your icon button"
+msgstr "Ingresa la URL completa para el botón del ícono"
+
+msgid "Error 404"
+msgstr "Error 404"
+
+msgid "Error 404."
+msgstr "Error 404."
+
+msgid "Ex: Facebook"
+msgstr "Ej: Facebook"
+
+msgid "Excerpt Length"
+msgstr "Longitud del extracto"
+
+msgid "Exclude featured posts from the content below"
+msgstr "Excluir las entradas destacadas del contenido de abajo"
+
+msgid "Expand Menu"
+msgstr "Expandir menú"
+
+msgid "Featured Category"
+msgstr "Categoría destacada"
+
+msgid "Featured Post Count"
+msgstr "Cantidad de entradas destacadas"
+
+msgid "Featured Posts"
+msgstr "Entradas destacadas"
+
+msgid "Font"
+msgstr "Fuente"
+
+msgid "Font Awesome icons. Ex: fa-facebook "
+msgstr "Íconos de Font Awesome. Ej: fa-facebook "
+
+msgid "Font Awesome names:"
+msgstr "Nombres de Font Awesome:"
+
+msgid "Footer"
+msgstr "Pie de página"
+
+msgid "Footer 1"
+msgstr "Pie de página 1"
+
+msgid "Footer 2"
+msgstr "Pie de página 2"
+
+msgid "Footer 3"
+msgstr "Pie de página 3"
+
+msgid "Footer 4"
+msgstr "Pie de página 4"
+
+msgid "Footer Ads"
+msgstr "Anuncios en el pie de página"
+
+msgid "Footer Copyright"
+msgstr "Copyright del pie de página"
+
+msgid "Footer Credit"
+msgstr "Crédito del pie de página"
+
+msgid "Footer Logo"
+msgstr "Logo del pie de página"
+
+msgid "Footer Social Links"
+msgstr "Enlaces sociales del pie de página"
+
+msgid "Footer Widget Columns"
+msgstr "Columnas de widgets del pie de página"
+
+msgid "Footer ads area"
+msgstr "Área de anuncios del pie de página"
+
+msgid "Footer credit text"
+msgstr "Texto de crédito del pie de página"
+
+msgid "Footer widget ads area"
+msgstr "Área de anuncios de widgets del pie de página"
+
+msgid "For the term"
+msgstr "Para el término"
+
+msgid "Frontpage Bottom 1"
+msgstr "Portada inferior 1"
+
+msgid "Frontpage Bottom 2"
+msgstr "Portada inferior 2"
+
+msgid "Frontpage Top 1"
+msgstr "Portada superior 1"
+
+msgid "Frontpage Top 2"
+msgstr "Portada superior 2"
+
+msgid "Frontpage Widgets Bottom"
+msgstr "Widgets inferiores de portada"
+
+msgid "Frontpage Widgets Top"
+msgstr "Widgets superiores de portada"
+
+msgid "Frontpage area"
+msgstr "Área de portada"
+
+msgid "General"
+msgstr "General"
+
+msgid "Georgia"
+msgstr "Georgia"
+
+msgid "Global Layout"
+msgstr "Diseño global"
+
+msgid "Header"
+msgstr "Encabezado"
+
+msgid "Header Color"
+msgstr "Color del encabezado"
+
+msgid "Header Logo Image Max-height"
+msgstr "Alto máximo del logo del encabezado"
+
+msgid "Header Search"
+msgstr "Búsqueda en el encabezado"
+
+msgid "Header Social Links"
+msgstr "Enlaces sociales del encabezado"
+
+msgid "Header search button"
+msgstr "Botón de búsqueda en el encabezado"
+
+msgid "Heading"
+msgstr "Encabezado"
+
+msgid "Home"
+msgstr "Inicio"
+
+msgid "Icon Color"
+msgstr "Color del ícono"
+
+msgid "Icon Name"
+msgstr "Nombre del ícono"
+
+msgid "Inter, Latin"
+msgstr "Inter, Latín"
+
+msgid "Lato, Latin"
+msgstr "Lato, Latín"
+
+msgid "Layout"
+msgstr "Diseño"
+
+msgid "Link"
+msgstr "Enlace"
+
+msgid "Max number of featured posts to display. Set it to 0 to disable"
+msgstr "Cantidad máxima de entradas destacadas a mostrar. Configura en 0 para desactivar"
+
+msgid "Max number of words. Set it to 0 to disable."
+msgstr "Cantidad máxima de palabras. Configura en 0 para desactivar."
+
+msgid "Max-width of the container."
+msgstr "Ancho máximo del contenedor."
+
+msgid "Max-width of the content on posts and pages"
+msgstr "Ancho máximo del contenido en entradas y páginas"
+
+msgid "Meta Box"
+msgstr "Meta Box"
+
+msgid "Minimum width of 320px"
+msgstr "Ancho mínimo de 320px"
+
+msgid "Mobile"
+msgstr "Móvil"
+
+msgid "Mobile Sidebar Content"
+msgstr "Contenido de la barra lateral en móvil"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "No Responses"
+msgstr "Sin respuestas"
+
+msgid "Normal full width sidebar"
+msgstr "Barra lateral normal a ancho completo"
+
+msgid "Open Sans, Latin / Cyrillic-Ext"
+msgstr "Open Sans, Latín / Cirílico ampliado"
+
+msgid "Open Sans, Latin-Ext"
+msgstr "Open Sans, Latín ampliado"
+
+msgid "Open in new window"
+msgstr "Abrir en una ventana nueva"
+
+msgid "Other layouts will override this option if they are set"
+msgstr "Otros diseños sobrescribirán esta opción si están configurados"
+
+msgid "PT Serif, Latin / Cyrillic-Ext"
+msgstr "PT Serif, Latín / Cirílico ampliado"
+
+msgid "PT Serif, Latin-Ext"
+msgstr "PT Serif, Latín ampliado"
+
+msgid "Page Options"
+msgstr "Opciones de la página"
+
+msgid "Page not found!"
+msgstr "¡Página no encontrada!"
+
+msgid "Pages:"
+msgstr "Páginas:"
+
+msgid "Pingbacks"
+msgstr "Pingbacks"
+
+msgid "Playfair Display, Latin / Cyrillic"
+msgstr "Playfair Display, Latín / Cirílico"
+
+msgid "Playfair Display, Latin-Ext"
+msgstr "Playfair Display, Latín ampliado"
+
+msgid "Please try another search:"
+msgstr "Por favor intenta otra búsqueda:"
+
+msgid "Post Options"
+msgstr "Opciones de la entrada"
+
+msgid "Powered by"
+msgstr "Funciona con"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Primary"
+msgstr "Principal"
+
+msgid "Primary Color"
+msgstr "Color principal"
+
+msgid "Primary Sidebar"
+msgstr "Barra lateral principal"
+
+msgid "Profile Description"
+msgstr "Descripción del perfil"
+
+msgid "Profile Image"
+msgstr "Imagen de perfil"
+
+msgid "Profile Name"
+msgstr "Nombre de perfil"
+
+msgid "Raleway, Latin"
+msgstr "Raleway, Latín"
+
+msgid "Recommended Plugins"
+msgstr "Plugins recomendados"
+
+msgid "Regenerate Thumbnails"
+msgstr "Regenerate Thumbnails"
+
+msgid "Related by categories"
+msgstr "Relacionadas por categorías"
+
+msgid "Related by tags"
+msgstr "Relacionadas por etiquetas"
+
+msgid "Replace the footer copyright text"
+msgstr "Reemplaza el texto de copyright del pie de página"
+
+msgid "Roboto Condensed, Latin / Cyrillic-Ext"
+msgstr "Roboto Condensed, Latín / Cirílico ampliado"
+
+msgid "Roboto Condensed, Latin-Ext"
+msgstr "Roboto Condensed, Latín ampliado"
+
+msgid "Roboto Slab, Latin / Cyrillic-Ext"
+msgstr "Roboto Slab, Latín / Cirílico ampliado"
+
+msgid "Roboto Slab, Latin-Ext"
+msgstr "Roboto Slab, Latín ampliado"
+
+msgid "Roboto, Latin / Cyrillic-Ext"
+msgstr "Roboto, Latín / Cirílico ampliado"
+
+msgid "Roboto, Latin-Ext"
+msgstr "Roboto, Latín ampliado"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Search result"
+msgstr "resultado de búsqueda"
+
+msgid "Search results"
+msgstr "resultados de búsqueda"
+
+msgid "Select a category"
+msgstr "Selecciona una categoría"
+
+msgid "Select a sidebar"
+msgstr "Selecciona una barra lateral"
+
+msgid "Select columns to enable footer widgets. Recommended number: 3"
+msgstr "Selecciona las columnas para activar los widgets del pie de página. Número recomendado: 3"
+
+msgid "Select font for the theme"
+msgstr "Selecciona la fuente del theme"
+
+msgid "Set a unique color for your icon (optional)"
+msgstr "Define un color único para tu ícono (opcional)"
+
+msgid "Show heading on blog home"
+msgstr "Mostrar encabezado en la portada del blog"
+
+msgid "Shows links to the next and previous article"
+msgstr "Muestra enlaces al artículo siguiente y anterior"
+
+msgid "Shows post author description, if it exists"
+msgstr "Muestra la descripción del autor de la entrada, si existe"
+
+msgid "Shows randomized related articles below the post"
+msgstr "Muestra artículos relacionados al azar debajo de la entrada"
+
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+msgid "Sidebar Color"
+msgstr "Color de la barra lateral"
+
+msgid "Sidebar content on low-resolution mobile devices (320px)"
+msgstr "Contenido de la barra lateral en dispositivos móviles de baja resolución (320px)"
+
+msgid "Sidebars"
+msgstr "Barras laterales"
+
+msgid "Single"
+msgstr "Entrada individual"
+
+msgid "Single - Author Bio"
+msgstr "Entrada individual - Biografía del autor"
+
+msgid "Single - Post Navigation"
+msgstr "Entrada individual - Navegación de entradas"
+
+msgid "Single - Related Posts"
+msgstr "Entrada individual - Entradas relacionadas"
+
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+msgid "Social Links"
+msgstr "Enlaces sociales"
+
+msgid "Social Sidebar Color"
+msgstr "Color de la barra lateral social"
+
+msgid "Social link icon buttons"
+msgstr "Botones de íconos de enlaces sociales"
+
+msgid "Source Sans Pro, Latin-Ext"
+msgstr "Source Sans Pro, Latín ampliado"
+
+msgid "Styling"
+msgstr "Estilos"
+
+msgid "Subheading"
+msgstr "Subtítulo"
+
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgid "The page you are trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "La página que intentas visitar no existe o ha sido movida. Usa los menús o el cuadro de búsqueda para encontrar lo que buscas."
+
+msgid "Theme Options"
+msgstr "Opciones del theme"
+
+msgid "Theme by"
+msgstr "Theme por"
+
+msgid "Titillium Web, Latin (Self-hosted)"
+msgstr "Titillium Web, Latín (alojado localmente)"
+
+msgid "Titillium Web, Latin-Ext"
+msgstr "Titillium Web, Latín ampliado"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "To search type and hit enter"
+msgstr "Escribe para buscar y presiona enter"
+
+msgid "Toggle Child Menu"
+msgstr "Mostrar u ocultar submenú"
+
+msgid "Turn on to use the styling options below"
+msgstr "Activa para usar las opciones de estilo de abajo"
+
+msgid "Ubuntu, Latin / Cyrillic-Ext"
+msgstr "Ubuntu, Latín / Cirílico ampliado"
+
+msgid "Ubuntu, Latin-Ext"
+msgstr "Ubuntu, Latín ampliado"
+
+msgid "Upload your custom logo image"
+msgstr "Sube tu imagen de logo personalizada"
+
+msgid "Verdana"
+msgstr "Verdana"
+
+msgid "View All"
+msgstr "Ver todos"
+
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+msgid "Website Max-width"
+msgstr "Ancho máximo del sitio"
+
+msgid "Widgetized footer"
+msgstr "Pie de página con widgets"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "You may also like..."
+msgstr "También te puede interesar..."
+
+msgid "Your blog heading"
+msgstr "El encabezado de tu blog"
+
+msgid "Your blog subheading"
+msgstr "El subtítulo de tu blog"
+
+msgid "Your logo image should have the double height of this to be high resolution"
+msgstr "Tu imagen de logo debería tener el doble de esta altura para verse en alta resolución"
+
+msgid "Your name appears below the image"
+msgstr "Tu nombre aparece debajo de la imagen"
+
+msgid "social link"
+msgstr "enlace social"
+
