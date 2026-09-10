@@ -1,0 +1,54 @@
+name: Release
+
+# Cuts a GitHub Release automatically whenever the Version header in
+# style.css changes on main. The theme's own auto-updater
+# (functions/updater.php) checks GET /repos/{repo}/releases/latest, so a
+# release has to actually exist (a bare git tag isn't enough) for
+# "Apariencia > Actualizaciones" to pick up new versions.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read theme version from style.css
+        id: version
+        run: |
+          version=$(grep -m1 '^Version:' style.css | sed 's/^Version:[[:space:]]*//' | tr -d '\r\n')
+          if [ -z "$version" ]; then
+            echo "No se encontro el header Version en style.css" >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+
+      - name: Skip if this version was already released
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${{ steps.version.outputs.tag }}" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create release
+        if: steps.check.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.version.outputs.tag }}" \
+            --repo "${{ github.repository }}" \
+            --title "${{ steps.version.outputs.tag }}" \
+            --target "${{ github.sha }}" \
+            --generate-notes
